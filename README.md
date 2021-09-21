@@ -1,6 +1,6 @@
 ## FINANCEPEER CODING ASSIGNMENT
 
-**Vinay Kumar B.Tech CSE**
+Tiasha Majumdar
 
 WEB FRAMEWORK - FLASK  
 
