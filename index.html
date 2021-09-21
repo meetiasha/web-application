@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-<title>Login</title>
+<title>Financepeer</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -68,7 +68,6 @@
         font-size: 16px;
         font-weight: bold;
 		background: #19aa8d;
-        color:white;
         border-radius: 3px;
 		border: none;
 		min-width: 140px;
@@ -78,8 +77,8 @@
 		background: #179b81;
 	}
 	.signin-form a {
-		color: #19aa8d;
-		text-decoration: none;
+		color:white;
+        text-decoration: none;
 	}	
 	.signin-form a:hover {
 		text-decoration: underline;
@@ -103,28 +102,19 @@
 </head>
 <body>
 <div class="signin-form">	
-        <form form action="/fileload.html" onsubmit="return true" method="POST">
-		<h2>Financepeer</h2>
-		<p class="lead">Sign In !</p>
-       
-        <div class="form-group">
-			<div class="input-group">
-				<span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
-				<input type="text" class="form-control" name="userName" placeholder="User Name" required="required">
-			</div>
-        </div>
-		<div class="form-group">
-			<div class="input-group">
-				<span class="input-group-addon"><i class="fa fa-lock"></i></span>
-				<input type="text" class="form-control" name="userPassword" placeholder="Password" required="required">
-			</div>
-        </div>
-		       
-		<div class="form-group">
-            <center>
-            <button  type="submit" value="Submit" class="btn">Sign In !</button>
+        <form form action="/success.html" onsubmit="return true" method="POST">
+		<h2>Welcome to Financepeer</h2>
+	 <div class="form-group">
+         <center>
+            <button type="button" value="New User?" class="btn"><a href="/signup.html" >Register</a></button>
         </center>
         </div>
+        <div class="form-group">
+            <center>            <button type="button" value="Already Registered?" class="btn"><a href="/login.html">Already have an account ?</a></button>
+            </center>
+
+            </div>
+    </div>
 	</form>
 </div>
 </body>
